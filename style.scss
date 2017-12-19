@@ -57,22 +57,49 @@ header {
 	width: 100%;
 	background-color: #313234;
 	height: 50px;
+
+ nav {
+	 ul {
+		margin: 0 auto;
+		padding: 0;
+		list-style-type: none;
+		float: right;
+	}
+	li {
+		display: inline-block;
+	}		
+	a {
+		line-height: 50px;
+		padding: 0 20px;
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase; 
+	}
 }
-header nav ul {
-	margin: 0 auto;
-	padding: 0;
-	list-style-type: none;
-	float: right;
-}
-header nav ul li {
-	display: inline-block;
 }
 
-header nav ul li a {
-	line-height: 50px;
-	padding: 0 20px;
-	display: block;
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase; 
+	section.hero {
+		width: 100%;
+		height: 100vh;
+		padding-top: 42vh;
+		background-image: url(https://images.unsplash.com/photo-1468778809102-ff4948dbba0d?auto=format&fit=crop&w=1500&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+		background-size: cover;
+		background-position: 50%;
+ 		overflow: hidden; 
+
+	.slogan {
+		float: right;
+		height: 80px
+		margin-top: 50px;
+		background: rgba(0,0,0,0.5);
+		padding: 30px 70px 30px 70px;
+	}
+	h1 {
+		max-width: 800px;
+		color: #fff;
+		margin: 0;
+		text-transform: uppercase; 
+		text-shadow: 2px 1px black;
+	}
 }
